@@ -30,13 +30,13 @@ main_layout.setAlignment(Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignTop)
 press_button = QPushButton("Press", central_widget)
 press_button.setFixedSize(100, 42)
 press_button.setStyleSheet(
-    "background-color: #4a4a4a; color: white; border: 1px solid #5c5c5c;"
+    "background-color: #grey; color: white; border: 1px solid grey;"
 )
 main_layout.addWidget(press_button)
 
 input_frame = QFrame(central_widget)
 input_frame.setFixedSize(502, 502)
-input_frame.setStyleSheet("background-color: #858585;")
+input_frame.setStyleSheet("background-color: #grey;")
 main_layout.addWidget(input_frame)
 
 frame_layout = QVBoxLayout(input_frame)
